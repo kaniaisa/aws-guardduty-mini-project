@@ -5,6 +5,28 @@ This mini project demonstrates how Amazon GuardDuty can be used to detect and re
 
 Amazon GuardDuty is a managed threat detection service that continuously monitors AWS accounts and workloads for suspicious or malicious activity.
 
+## How Amazon GuardDuty Works
+
+Amazon GuardDuty continuously monitors and analyses activity within an AWS environment to identify suspicious or potentially malicious behaviour.
+
+GuardDuty analyses foundational data sources such as:
+
+- AWS CloudTrail management events – monitors API and account activity
+- VPC Flow Logs – analyses network traffic patterns
+- DNS logs – identifies suspicious domain requests
+
+GuardDuty uses threat intelligence, machine learning and behavioural analysis to identify potential threats.
+
+When suspicious activity is detected, GuardDuty generates a **finding** containing information such as:
+
+- Finding type
+- Severity level
+- Affected AWS resource
+- Details about the detected threat
+
+This helps security teams prioritise findings and investigate potential security incidents.
+
+
 ## Demo Objective
 The objective of this demonstration is to:
 
@@ -52,6 +74,10 @@ GuardDuty provided information about the affected resource, detected threat and 
 
 ![High Severity EICAR Finding](05-high-severity-eicar-finding.png)
 
+## GuardDuty Detection Flow
+
+AWS Activity → GuardDuty Analysis → Threat Detection → Security Finding → Investigation
+
 ## Key Learning
 Amazon GuardDuty helps security and cloud teams identify suspicious activity without manually reviewing large amounts of AWS activity data.
 
@@ -59,3 +85,11 @@ The findings provide useful information such as severity, finding type and affec
 
 ## Note
 All findings shown in this project are AWS-generated sample findings for demonstration purposes. No real malicious activity was performed.
+
+## References
+
+The following official AWS documentation was used as references for this mini project:
+
+- [What is Amazon GuardDuty?](https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html)
+- [Getting started with Amazon GuardDuty](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_settingup.html)
+- [Understanding and generating Amazon GuardDuty findings](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_findings.html)
