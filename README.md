@@ -18,8 +18,14 @@ The objective of this demonstration is to:
 ### 1. Enable Amazon GuardDuty
 Amazon GuardDuty was enabled in the **us-east-1 (N. Virginia)** region.
 
+![Enable Amazon GuardDuty](01-enable-guardduty.png)
+
+![GuardDuty Enabled](02-guardduty-enabled.png)
+
 ### 2. Generate Sample Findings
 Sample findings were generated using the built-in **Generate sample findings** option in GuardDuty.
+
+![Generate Sample Findings](03-sample-findings-generated.png)
 
 These findings are provided by AWS for testing and demonstration purposes and do not represent real security incidents.
 
@@ -30,6 +36,8 @@ After generating the samples, GuardDuty displayed findings with different severi
 - Medium
 - High
 - Critical
+
+![GuardDuty Findings](04-guardduty-findings.png)
 
 ### 4. Analyse a High Severity Finding
 For this demonstration, the following sample finding was reviewed:
