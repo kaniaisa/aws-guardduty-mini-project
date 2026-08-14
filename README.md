@@ -50,6 +50,8 @@ For this demonstration, the following sample finding was reviewed:
 
 GuardDuty provided information about the affected resource, detected threat and malware scan details.
 
+![High Severity EICAR Finding](05-high-severity-eicar-finding.png)
+
 ## Key Learning
 Amazon GuardDuty helps security and cloud teams identify suspicious activity without manually reviewing large amounts of AWS activity data.
 
