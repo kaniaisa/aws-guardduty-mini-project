@@ -42,7 +42,7 @@ After generating the samples, GuardDuty displayed findings with different severi
 ### 4. Analyse a High Severity Finding
 For this demonstration, the following sample finding was reviewed:
 
-**Finding:** EICAR-Test-File detected on an EC2 instance
+**Finding:** EICAR-Test-File detected on an EC2 instance (AWS sample finding)
 
 **Finding Type:** `Execution:EC2/MaliciousFile`
 
